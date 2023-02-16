@@ -2,6 +2,7 @@
 console.clear();
 
 
+
 const IS_MOBILE = window.innerWidth <= 640;
 const IS_DESKTOP = window.innerWidth > 800;
 const IS_HEADER = IS_DESKTOP && window.innerHeight < 300;
@@ -1680,3 +1681,4 @@ const Spark = {
 
 
 init();
+
